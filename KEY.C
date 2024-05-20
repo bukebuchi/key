@@ -1,3 +1,12 @@
+/*
+ * @FilePath: KEY.C
+ * @Author: lizhi
+ * @Date: 2024-04-03 11:17:07
+ * @LastEditors: 
+ * @LastEditTime: 2024-05-20 16:49:23
+ * Copyright: 2024 xxxTech CO.,LTD. All Rights Reserved.
+ * @Descripttion: 
+ */
 #include <REG52.H>
 
 sbit KEY1 = P1 ^ 0;
@@ -20,7 +29,7 @@ void main()
     EA = 1;
     P1 = 0XFF;
     P0 = 0X00;
-    while (1)
+    while (1)ke
     {
         if (KeyStat != backstat)
         {
