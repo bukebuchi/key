@@ -36,7 +36,9 @@ void main()
             
             if (backstat == 1)
             {
-               LED = 0;
+               LED1 = 0;
+               LED1 = 0;
+               LED1 = 0;
                 //LED1 = ~LED1;
             }
             else
