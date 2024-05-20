@@ -2,8 +2,8 @@
  * @FilePath: KEY.C
  * @Author: lizhi
  * @Date: 2024-04-03 11:17:07
- * @LastEditors: 
- * @LastEditTime: 2024-05-20 16:49:23
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-05-20 16:59:30
  * Copyright: 2024 xxxTech CO.,LTD. All Rights Reserved.
  * @Descripttion: 
  */
@@ -29,14 +29,14 @@ void main()
     EA = 1;
     P1 = 0XFF;
     P0 = 0X00;
-    while (1)ke
+    while (1)
     {
         if (KeyStat != backstat)
         {
             
             if (backstat == 1)
             {
-               
+               LED = 0;
                 //LED1 = ~LED1;
             }
             else
